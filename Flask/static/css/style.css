@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: 'Mukta Malar';
+    src: url('../fonts/MuktaMalar-Regular.ttf');
+}
+
+*{
+    font-family: "Mukta Malar", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    color: #5d67f8;
+    font-weight: bold;
+}
+h2,h3,h5,h1{
+    font-weight: bold;
+    color: #5d67f8;
+}
+.red{
+    color: rgb(250, 71, 71);
+}
+h4{
+    font-weight: bold;
+    color: #5d67f8;
+}
+
+input{
+    padding: .3rem 1rem;
+    outline: none;
+    border: none;
+    margin: .5rem .3rem;
+    border: 2px solid #5d67f8;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: .5rem .3rem;
+}
+
+.content{
+    display: flex;
+    padding: .1rem 5rem;
+    align-items: center;
+}
+
+.data{
+    margin: 1rem 10rem;
+}
+.img2{
+    width: 350px;
+    height: 400px;
+}
+.contents{
+    padding: 3rem 10rem;
+    text-align: center;
+}
+.datas{
+    padding: 1rem 3rem;
+    margin: 1rem 10rem;
+}
+.img1{
+    width: 450px;
+    height: 350px;
+}
+
+
+input:hover{
+    outline: none;
+    border: 2px solid #5d67f8;
+}
+
+  
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #5d67f8;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: .1rem .1rem;
+    border-radius: 50%;
+    border: 3px solid #5d67f8;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type="radio"]:checked {
+    background-color: #5d67f8;
+}
+  
+  input[type="radio"]:hover {
+    border-color: #5d67f8;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

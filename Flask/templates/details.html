@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Predication</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="content">
+        <div>
+            <img src="../static/img/user.svg" class="img1" alt="Index">
+        </div>
+        <div class="datas">
+            <h3>Please Enter Your Details</h3><br>
+            <form action="/predict" method="post">
+                <input type="text" name="name" placeholder="Name" required /><br>
+                <input type="text" name="gre" id="gre" placeholder="GRE Score" required /><br>
+                <input type="text" name="tofel" id="tofel" placeholder="TOFEL Score" required /><br>
+        
+        
+                <p>University Rating</p>
+                <input type="radio" name="Uni" value="1" id="option1">1
+                <input type="radio" name="Uni" value="2" id="option2">2
+                <input type="radio" name="Uni" value="3" id="option3">3
+                <input type="radio" name="Uni" value="4" id="option4">4
+                <input type="radio" name="Uni" value="5" id="option5">5<br>
+        
+                
+                <input type="text" name="sop" placeholder="SOP" required><br>
+                <input type="text" name="lor" placeholder="LOR" required> <br>
+                <input type="text" name="cgpa" placeholder="CGPA" id="cgpa" required> <br>
+        
+                <p>Research</p>
+                <input type="radio" class="radio" name="Reserch" id="research1" value="1" required>Reserch
+                <input type="radio" class="radio" name="Reserch" id="research2" value="2" required> No Reserch<br>
+        
+                <input type="submit" value="Predict" class="btn">
+        
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

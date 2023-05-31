@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/128005450/231062606-35d494c2-0ede-4305
 - HTML/CSS
 
 ## Installation
-- Clone the repository: git clone https://github.com/iyappan012/University-Admission-Predication-App.git
+- Clone the repository: git clone https://github.com/k2oneiy/University-Admission-Predication-App.git
 - Run the application: python app.py
 
 ## Usage
@@ -37,8 +37,3 @@ https://user-images.githubusercontent.com/128005450/231062606-35d494c2-0ede-4305
 - Input your academic and personal profile data
 - Click the "Predict" button to get your admission prediction result
 
-## Contributors
-- Iyappan M (@iyappan012)
-- Jothilingam L (@ljod35)
-- Kabilan A (@kabilana36)
-- Keerthana R (@keerthanar05)

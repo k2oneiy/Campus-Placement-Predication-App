@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/128005450/231062606-35d494c2-0ede-4305
 - HTML/CSS
 
 ## Installation
-- Clone the repository: git clone https://github.com/k2oneiy/University-Admission-Predication-App.git
+- Clone the repository: git clone https://github.com/k2oneiy/Campus-Placement-Predication-App.git
 - Run the application: python app.py
 
 ## Usage
